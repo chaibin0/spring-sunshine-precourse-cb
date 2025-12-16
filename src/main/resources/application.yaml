@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: seminar
+  ai:
+    google:
+      genai:
+        api-key: ${API_KEY}
+        chat:
+          options:
+            model: gemini-2.5-flash-lite
